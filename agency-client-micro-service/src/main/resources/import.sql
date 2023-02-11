@@ -1,5 +1,5 @@
--- This file allow to write SQL commands that will be emitted in test and dev.
--- The commands are commented as their support depends of the database
--- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-1');
--- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-2');
--- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-3');
+--toda vez que a aplicacao iniciar irá criar dados fictícios para teste
+insert into Client(id, name) values (nextval('hibernate_sequence'), 'João');
+insert into Client(id, name) values (nextval('hibernate_sequence'), 'Maria');
+insert into Client(id, name) values (nextval('hibernate_sequence'), 'José');
+insert into Client(id, name) values (nextval('hibernate_sequence'), 'Ana');
