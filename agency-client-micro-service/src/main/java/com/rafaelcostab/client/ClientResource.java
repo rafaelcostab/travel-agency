@@ -1,6 +1,5 @@
 package com.rafaelcostab.client;
 
-
 import java.util.List;
 
 import javax.transaction.Transactional;
